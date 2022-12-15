@@ -26,4 +26,9 @@ Below are the test accuracies our experiments achieved on a 1000-600 train-test 
 
 We see that experiments 1 and 3, performing the skip connection or concatenation at the beginning of forward function, achieve an accuracy of approximately 93.5%, higher than the baseline CNN model's accuracy of approximately 93.1%.
 
+Below are the test accuracies our experiments achieved on a 1000-600 train-test subset of the Fashion-MNIST dataset:
+![fashion_mnist_accuracy](https://github.com/muirheadmaster/quanvolution/blob/main/fashion_mnist.png)
+
+We see that experiment 2, performing the addition of quanv output and conv output, achieve comparable performance as CNN.
+
 While the training of hybrid quantum-classical models is markedly slower than training a classical model, we have demonstrated that they can achieve comparable or possibly better image classification with good experimentation.
