@@ -14,7 +14,7 @@ A diagram of this circuit is given below:
 ![circuit2x2](https://user-images.githubusercontent.com/42923017/207743095-8435f2bd-e877-4ad3-acbb-78191bd1e5fa.png)
 
 
-After feeding the images through our quantum convolutional circuit, we can either directly feed these quantum convolution results to a classical classifier (example preprocessing is done in `quanv_kernel_2_preprocess_mnist.ipynb` and the classical classifiers are in **Ryan's ResNet and LeNet notebooks**) or integrate them into the training of a hybrid quantum-classical CNN (done in `mnist_torch.ipynb` and **Yinuo's fashion-mnist notebook**). When integrating the quantum convolution results into a hybrid quantum-classical CNN, we tried 4 different approaches and compared their test accuracies to those of the baseline CNN. Below are our 4 different approaches/experiments:
+After feeding the images through our quantum convolutional circuit, we can either directly feed these quantum convolution results to a classical classifier as a baseline model (example of this preprocessing is done in `quanv_kernel_2_preprocess_mnist.ipynb` and the classical classifiers are in **Ryan's ResNet and LeNet notebooks**) or integrate them into the training of a hybrid quantum-classical CNN (done in `mnist_torch.ipynb` and **Yinuo's fashion-mnist notebook**). When integrating the quantum convolution results into a hybrid quantum-classical CNN, we tried 4 different approaches and compared their test accuracies to those of the baseline CNN. Below are our 4 different approaches/experiments:
 
 1. Quanv(x) + x: skip connection between the quantum convolution results and the original input image
 2. Quanv(x) + Conv(x): skip connection between the quantum and classical convolution results of the input image
