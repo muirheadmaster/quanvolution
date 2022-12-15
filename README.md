@@ -6,7 +6,7 @@ A Google slide presentation of our project is linked [here](https://docs.google.
 The goal of our project was to utilize a quantum convolutional circuit to augment the performance of a classical image classifier on the MNIST, Fashion-MNIST, and CIFAR-10 datasets.
 The quantum convolutional circuit was inspired by the [Pennylane tutorial on quantum neural networks](https://pennylane.ai/qml/demos/tutorial_quanvolution.html) and is structured as follows:
 
-1. We iterate over 2x2 regions of an image and use a region's values as R_y rotation angles in the first section of our quantum circuit.
+1. We iterate over 2x2 regions of an image and use a region's values as R<sub>y</sub> rotation angles in the first section of our quantum circuit.
 2. We apply a unitary gate in the quantum circuit given by [RandomLayers](https://docs.pennylane.ai/en/stable/code/api/pennylane.RandomLayers.html) and parameterized by 4 random values in the second section of our quantum circuit.
 3. We collect Z expectation values and map them back to their original locations in the image or compile them to make a multi-channel image.
 
