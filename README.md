@@ -1,5 +1,7 @@
 # Quanvolutional Image Classification
-Welcome to our project on classifying images using hybrid quantum-classical models! We are so glad to have you here. 
+Welcome to our project on classifying images using hybrid quantum-classical models! We are so glad to have you here.
+
+A Google slide presentation of our project is linked [here](https://docs.google.com/presentation/d/15cliQYw5iHnrlowJ_3vq_JCDgef2uBWDGb1he-XRfdE/edit?usp=sharing).
 
 The goal of our project was to utilize a quantum convolutional circuit to augment the performance of a classical image classifier on the MNIST, Fashion-MNIST, and CIFAR-10 datasets.
 The quantum convolutional circuit was inspired by the [Pennylane tutorial on quantum neural networks](https://pennylane.ai/qml/demos/tutorial_quanvolution.html) and is structured as follows:
