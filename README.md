@@ -24,6 +24,6 @@ After feeding the images through our quantum convolutional circuit, we can eithe
 Below are the test accuracies our experiments achieved on a 1000-600 train-test subset of the MNIST dataset:
 ![mnist_experiments_accuracy](https://user-images.githubusercontent.com/42923017/207742990-faeba8c2-9723-4032-b9c1-2d00522d00b6.png)
 
-We see that that experiments 1 and 3, performing the skip connection or concatenation at the beginning of forward function, achieve an accuracy of approximately 93.5%, higher than the baseline CNN model's accuracy of approximately 93.1%.
+We see that experiments 1 and 3, performing the skip connection or concatenation at the beginning of forward function, achieve an accuracy of approximately 93.5%, higher than the baseline CNN model's accuracy of approximately 93.1%.
 
 While the training of hybrid quantum-classical models is markedly slower than training a classical model, we have demonstrated that they can achieve comparable or possibly better image classification with good experimentation.
